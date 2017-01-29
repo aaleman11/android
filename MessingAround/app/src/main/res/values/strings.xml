@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">MessingAround</string>
+    <string name="users_name_edit_text">Your Name</string>
+    <string name="happy_question">Are You Happy?</string>
+    <string name="answer_yes_button">Yes</string>
+    <string name="answer_no_button">No</string>
+</resources>
