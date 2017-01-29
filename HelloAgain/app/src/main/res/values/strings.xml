@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Hello Again</string>
+    <string name="hello_again">Hello Again</string>
+    <string name="button_1_text">You Clicked</string>
+</resources>
