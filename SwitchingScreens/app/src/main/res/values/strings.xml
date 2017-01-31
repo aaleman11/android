@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">SwitchingScreens</string>
+    <string name="enter_name_textview">Enter Your Name: </string>
+    <string name="enter_button">Enter</string>
+    <string name="calling_activity_message">The calling activity was</string>
+    <string name="get_name_textview">Go get the name</string>
+    <string name="get_name_button">Go get it!</string>
+    <string name="user_name_retrieved">The user\'s name was</string>
+</resources>
