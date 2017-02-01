@@ -52,7 +52,7 @@
         android:background="@android:color/holo_blue_bright">
 
         <TextView
-            android:id="@+id/tsp_textview"
+            android:id="@+id/tsp_text_view"
             android:text="@string/defautl_tsp_value"
             android:textAppearance="?android:attr/textAppearanceMedium"
             android:layout_width="wrap_content"
@@ -62,7 +62,7 @@
             android:layout_marginBottom="30dp"/>
 
         <TextView
-            android:id="@+id/cup_textview"
+            android:id="@+id/cup_text_view"
             android:text="0.0208 cup"
             android:textAppearance="?android:attr/textAppearanceMedium"
             android:layout_gravity="left|top"/>
