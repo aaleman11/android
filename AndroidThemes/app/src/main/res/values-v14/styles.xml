@@ -1,0 +1,73 @@
+<resources>
+
+    <!--
+
+    Theme.Light : Android 3.0
+    Theme.Holo.Light : Introduced in Android API 11
+    Theme.Holo.Light.DarkActionBar: Introduced in Android API 14
+
+    -->
+
+    <!-- Base application theme. -->
+    <style name="AppBaseTheme" parent="android:Theme.Holo.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <!--For Android API 14+-->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+        <!--Department of Sanitation Color Blue is #1BA7DB-->
+        <!--Department of Sanitation Color Green is #7CBF4B-->
+        <!--#A0DCF0-->
+        <item name="android:windowBackground">#1BA7DB</item>
+        
+        <item name="android:editTextColor">#FFFFFF</item>
+        <item name="android:textColorPrimary">#7CBF4B</item>
+        <item name="android:textColorSecondary">#7CBF4B</item>
+        <item name="android:textColorTertiary">#7CBF4B</item>
+        <item name="android:textColorPrimaryInverse">#7CBF4B</item>
+        <item name="android:textColorSecondaryInverse">#7CBF4B</item>
+        <item name="android:textColorTertiaryInverse">#7CBF4B</item>
+
+        <!--<item name="android:fontFamily">XXII-MISANTHROPIA-Ignora</item>-->
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textStyle">bold</item>
+
+    </style>
+
+    <!--<style name="AppTheme" parent="AppBaseTheme">-->
+    <!--</style>-->
+
+    <style name="TextView1">
+
+        <item name="android:textSize">30sp</item>
+        <item name="android:textStyle">bold </item>
+
+    </style>
+
+    <style name="EditText" parent="@style/TextView1">
+
+        <item name="textStyle">normal</item>
+
+    </style>
+
+    <style name="TextView1.TextView2">
+
+        <item name="android:padding">30dp</item>
+
+    </style>
+
+    <style name="TextView1.TextView2.TextView3">
+
+        <item name="android:layout_marginTop">15dp</item>
+
+    </style>
+
+    <style name="TextView" parent="@android:style/Widget.TextView">
+
+        <item name="android:textSize">55sp</item>
+        <item name="android:textStyle">bold</item>
+
+    </style>
+
+</resources>
